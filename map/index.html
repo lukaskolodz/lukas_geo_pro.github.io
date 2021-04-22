@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pl">
+<html lang="en">
 	<head>
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -14,14 +14,14 @@
 		/>
 		<meta name="author" content="Pchor Inżynier" />
 		<title>Geoportal</title>
+
 		<link
 			href="https://fonts.googleapis.com/css?family=Lato:400,700|Open+Sans&amp;subset=latin-ext"
 			rel="stylesheet"
 		/>
-		<!-- czcionki Open Sans Lato Regular 400 i 700 italic -->
-		<link rel="stylesheet" href="main.css" />
+		<link rel="stylesheet" href="../main.css" />
+		<link rel="stylesheet" href="../lib/leaflet.css" />
 	</head>
-
 	<body>
 		<header>
 			<div id="logotyp">
@@ -42,25 +42,12 @@
 			</ul>
 		</nav>
 
-		<!--container-->
-		<div class="categories">
-			<header>
-				<h1>Witaj na stronie!</h1>
-				<p>
-					Zapraszam do zapoznania się z materiałami umieszczonymi na stronie :)
-				</p>
-			</header>
-
-			<div class="subject">
-				<figure>
-					<a href="#"> <img src="img/images.jfif" /></a>
-				</figure>
-			</div>
-			<div class="subject">
-				<figure>
-					<a href="#"> <img src="img/images (1).jfif" /></a>
-				</figure>
-			</div>
+		<div class="container">
+			<div id="”mymap”">Tu będzie mapa</div>
 		</div>
+
+		<script src="../lib/leaflet.js"></script>
+		<script src="../lib/jquery-3.6.0.min.js"></script>
+		<script src="../main.js"></script>
 	</body>
 </html>
